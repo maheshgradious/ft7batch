@@ -1,17 +1,13 @@
-import java.util.Scanner;
-
-public class EvenOdd {
-
-    public static void main(String[] args) {
-
-        Scanner reader = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-        int num = reader.nextInt();
-
-        if(num % 2 == 0)
-            System.out.println(num + " is even");
-        else
-            System.out.println(num + " is odd");
-    }
+// Java program to calculate the area of the
+public class GFG {
+	public static void main(String[] args)
+	{
+		int radius;
+		double pi = 3.142, area;
+		radius = 5;
+		// calculating the area of the circle
+		area = pi * radius * radius;
+		// printing the area of the circle
+		System.out.println("Area of circle is :" + area);
+	}
 }
