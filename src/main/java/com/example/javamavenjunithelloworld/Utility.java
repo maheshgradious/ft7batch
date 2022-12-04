@@ -1,17 +1,11 @@
 import java.util.Scanner;
-
-public class EvenOdd {
-
-    public static void main(String[] args) {
-
-        Scanner reader = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-        int num = reader.nextInt();
-
-        if(num % 2 == 0)
-            System.out.println(num + " is even");
-        else
-            System.out.println(num + " is odd");
-    }
+public class AreaOfSquare {
+   public static void main(String args[]){
+      int length, area;
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the length of the square ::");
+      length = sc.nextInt();
+      area = length* length;
+      System.out.println("Area of the square is ::"+area);
+   }
 }
