@@ -58,3 +58,10 @@ public class AreaofSquare{
         
     }
 }
+public class Areaofrectangle{
+    static void sushma(int h,int b)
+    {
+   int area_rectangle=h*b;
+        System.out.println("Area of the rectangle="+area_rectangle);
+     }
+}
