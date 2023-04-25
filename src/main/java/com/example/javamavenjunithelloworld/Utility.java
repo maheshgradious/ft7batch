@@ -17,6 +17,14 @@ public class AreaofTriangle {
            System.out.println("The bigger number is" +num2);
           }
 
+public class Print1to10 {
+    static void Ahmed(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.print(i + " ");
+        }
+    }
+}
+
 public class AreaofSquare{
     static void sagar(int s)
     {
@@ -55,6 +63,7 @@ public class AreaofSquare{
 	sagar(s);
 	preksha();
         lakshmi(num1,num2);
-        
+        Ahmed(i);
     }
 }
+
