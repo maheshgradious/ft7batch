@@ -29,6 +29,7 @@ public class AreaofTriangle {
 
         ajay();
         sneha(num);
+        kaveri(1,2);
     }
 }
 
