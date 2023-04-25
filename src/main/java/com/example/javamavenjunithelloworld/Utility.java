@@ -17,6 +17,28 @@ public class AreaofTriangle {
            System.out.println("The bigger number is" +num2);
           }
 
+
+
+
+
+
+
+static void swati(int num1,int num2) {
+         int div= num1 / num2;
+         System.out.println("division of two numbers"+ "is" + div);
+          }
+
+
+
+
+
+
+
+
+
+
+
+
 public class AreaofSquare{
     static void sagar(int s)
     {
@@ -55,6 +77,7 @@ public class AreaofSquare{
 	sagar(s);
 	preksha();
         lakshmi(num1,num2);
+        swati(10,5);
         
     }
 }
