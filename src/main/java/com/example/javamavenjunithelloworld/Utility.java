@@ -30,7 +30,7 @@ public class AreaofSquare{
         System.out.println("THIS IS AJAY");
 	}
 	
- 	// sample code of priniting numbers from 1 to 10	
+ 	// sample code of printing numbers from 1 to 10	
 	static void preksha(){
             int i;
             System.out.println("Numbers from 1 to 10");
@@ -58,3 +58,18 @@ public class AreaofSquare{
         
     }
 }
+public class SquareRoot {
+    public static void main(String args[]){
+        int n = 24;
+        double i, precision = 0.00001;
+        for(i = 1; i*i <=n; ++i);
+        for(--i; i*i < n; i += precision);
+        System.out.println("Square root of given number "+i);
+        functionmdabu();
+    }
+
+    public static void functionmdabu(){
+        System.out.println("I am mdabu");
+    }
+}
+
