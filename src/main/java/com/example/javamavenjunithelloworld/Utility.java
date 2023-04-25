@@ -23,6 +23,13 @@ public class AreaofTriangle {
                 System.out.println(i);
             }
         }
+    // multiple2numbers
+     static void ankita(int num1,int num2) {
+         int mul= num1 *  num2;
+         System.out.println("multiple of two numbers"+ "is" + mul);
+          }   
+
+
 
     public static void main(String[] args) {
 
@@ -38,6 +45,7 @@ public class AreaofTriangle {
 	ajay();
 	sneha(num);
 	preksha();
+        ankita(2,3);
         
     }
 }
