@@ -38,6 +38,10 @@ public class AreaofSquare{
                 System.out.println(i);
             }
         }
+static void Nimisha(int num1,int num2) {
+         int mul= num1 *  num2;
+         System.out.println("multiple of two numbers"+ "is" + mul);
+          }
 
     public static void main(String[] args) {
 
@@ -54,6 +58,7 @@ public class AreaofSquare{
 	sneha(num);
 	sagar(s);
 	preksha();
+        Nimisha(3,6);
         lakshmi(num1,num2);
         
     }
