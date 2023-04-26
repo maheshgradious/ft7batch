@@ -38,6 +38,12 @@ public class AreaofSquare{
                 System.out.println(i);
             }
         }
+   static void  sumit(){
+
+        System.out.println("THIS IS SUMIT");
+        }
+
+
 
     public static void main(String[] args) {
 
