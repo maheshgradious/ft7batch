@@ -61,6 +61,7 @@ public class AreaofSquare{
 	sagar(s);
 	preksha();
         lakshmi(num1,num2);
+	sumit();
         
     }
 }
