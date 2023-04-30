@@ -17,6 +17,19 @@ public class AreaofTriangle {
            System.out.println("The bigger number is" +num2);
           }
 
+public class areaOfCircle {
+    static void praveen (int r)
+    {
+        double pi = 3.142, a;
+        r = 5;
+        a = pi * r * r;
+        System.out.println("Area of circle is :" + a);
+    }
+}
+
+
+
+
 public class AreaofSquare{
     static void sagar(int s)
     {
@@ -55,6 +68,6 @@ public class AreaofSquare{
 	sagar(s);
 	preksha();
         lakshmi(num1,num2);
-        
+        praveen();
     }
 }
